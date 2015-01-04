@@ -11,7 +11,25 @@ section#selectors p span {width:72%;}
 section#selectors p span.blue {width: 28%;}
 section#creating p span.blue {width: 43%;}
 section#reading p span.blue {width: 43%;}
-.no-border {
+
+.reveal section .no-border {
   border: none;
   box-shadow: none;
+}
+
+.reveal section .light-border {
+  border: 2px solid #D8D8D8;
+}
+
+.reveal section .stretch-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.reveal section .stretch-container .stretch-height {
+  height: 90%;
+}
+
+.reveal section .stretch-container .stretch-width {
+  width: 90%;
 }
